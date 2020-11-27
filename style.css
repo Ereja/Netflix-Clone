@@ -1,0 +1,111 @@
+/* footer links color #757575
+buttons color #e50914;
+questions liner color #303030;
+*/
+
+/* NEW FONT */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  color: #fff;
+  scroll-behavior: smooth;
+  background-color: #000000;
+}
+
+.flex {
+  display: flex;
+}
+
+/* HEADER STYLES */
+
+h1 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  transform: scale(1, 1);
+  line-height: 4rem;
+  letter-spacing: -1px;
+}
+
+h2,
+h3 {
+  font-weight: 400;
+  margin: 0.2rem 0;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.692) 30%,
+      rgba(0, 0, 0, 0.609) 40%
+    ),
+    radial-gradient(50% 100%, #00000023 50%, rgba(0, 0, 0, 0.411) 100%),
+    url(./images/heroimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 0.5rem solid #222;
+}
+
+.hero-header {
+  justify-content: space-between;
+  padding: 1.7rem 3.7rem;
+  margin-bottom: 3rem;
+}
+
+.hero-header img {
+  width: 170px;
+  height: 44px;
+}
+
+.hero-info {
+  flex-direction: column;
+  min-width: 450px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.email-input {
+  display: inline-flex;
+  border: 1px #000;
+  margin-top: 0.7rem;
+}
+
+input {
+  height: 4rem;
+  width: 60%;
+  outline: 0;
+}
+
+/* BUTTON STYLES */
+
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #e50914;
+  color: #fff;
+  padding: 7px 17px;
+  font-size: 1rem;
+}
+
+.btn-sign {
+  padding: 0.6rem 1rem;
+  border-radius: 3px;
+}
+
+.btn-started {
+  font-size: 1.7rem;
+  height: 4rem;
+  width: 40%;
+}
