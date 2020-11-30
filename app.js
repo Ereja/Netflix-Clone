@@ -17,3 +17,7 @@ questions.forEach(question => {
     question.classList.toggle("display-answer");
   });
 });
+
+//date
+const date = document.querySelector(".date");
+date.textContent = new Date().getFullYear();
