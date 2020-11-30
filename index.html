@@ -20,9 +20,9 @@
         <button class="btn btn-sign">Sign In</button>
       </div>
       <div class="hero-info flex">
-        <h1>Unlimited films, TV programmes and more.</h1>
-        <h2>Watch anywhere. Cancel at any time.</h2>
-        <h3>
+        <h1 class="center">Unlimited films, TV programmes and more.</h1>
+        <h2 class="center">Watch anywhere. Cancel at any time.</h2>
+        <h3 class="center">
           Ready to watch? Enter your email to create or restart your membership.
         </h3>
         <div class="email-input">
@@ -39,7 +39,7 @@
     <main>
       <!-- MAIN AREA -->
       <!-- FIRST SECTION -->
-      <div class="container">
+      <div class="container flex">
         <div class="section-info">
           <h1>Enjoy on your TV.</h1>
           <h2>
@@ -61,15 +61,15 @@
       </div>
       <div class="border"></div>
       <!-- SECOND SECTION -->
-      <div class="container">
-        <div class="section-info">
+      <div class="container flex">
+        <div class="section-info flex-order-img">
           <img
             src="./images/strangerthings.jpg"
             alt="Stranger Things poster"
             class="poster"
           />
         </div>
-        <div class="section-info">
+        <div class="section-info flex-order">
           <h1>Download your programmes to watch offline.</h1>
           <h2>
             Save your favourites easily and always have something to watch.
@@ -78,7 +78,7 @@
       </div>
       <div class="border"></div>
       <!-- THIRD SECTION -->
-      <div class="container">
+      <div class="container flex">
         <div class="section-info">
           <h1>Watch everywhere.</h1>
           <h2>
@@ -107,7 +107,7 @@
       <div class="faq-container">
         <h1 class="center">Frequently Asked Questions</h1>
         <div class="question">
-          <button class="question-btn">
+          <button class="question-btn flex whit">
             What can I watch on Netflix?
             <span class="plus-icon">
               <i class="fas fa-plus"></i>
@@ -123,7 +123,7 @@
           </p>
         </div>
         <div class="question">
-          <button class="question-btn">
+          <button class="question-btn flex">
             What is Netflix?
             <span class="plus-icon">
               <i class="fas fa-plus"></i>
@@ -145,7 +145,7 @@
           </p>
         </div>
         <div class="question">
-          <button class="question-btn">
+          <button class="question-btn flex">
             How much does Netflix cost?
             <span class="plus-icon">
               <i class="fas fa-plus"></i>
@@ -161,7 +161,7 @@
           </p>
         </div>
         <div class="question">
-          <button class="question-btn">
+          <button class="question-btn flex">
             Where can I watch?
             <span class="plus-icon">
               <i class="fas fa-plus"></i>
@@ -185,7 +185,7 @@
           </p>
         </div>
         <div class="question">
-          <button class="question-btn">
+          <button class="question-btn flex">
             How do I cancel?
             <span class="plus-icon">
               <i class="fas fa-plus"></i>
@@ -201,10 +201,56 @@
             at any time.
           </p>
         </div>
+        <div class="faq-input flex">
+          <h3 class="center">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="email-input">
+            <input type="email" placeholder="Email address" />
+            <button class="btn btn-started">
+              GET STARTED
+              <span class="arrow-icon">
+                <i class="fas fa-angle-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
       <div class="border"></div>
     </main>
-
+    <footer>
+      <div class="footer-grid">
+				<ul>
+					<li>FAQ</li>
+					<li>Investor Relations</li>
+					<li>Ways To Watch</li>
+					<li>Corporate Information</li>
+					<li>Netflix Originals</li>
+				</ul>
+				<ul>
+					<li>Help Center</li>
+					<li>Jobs</li>
+					<li>Terms Of Use</li>
+					<li>Contact Us</li>
+				</ul>
+				<ul>
+					<li>Account</li>
+					<li>Redeem Gift Cards</li>
+					<li>Privacy</li>
+					<li>Speed Test</li>
+				</ul>
+				<ul>
+					<li>Media Center</li>
+					<li>Buy Gift Cards</li>
+					<li>Cookie Preferences</li>
+					<li>Legal Notices</li>
+				</ul>
+      </div>
+      <div class="copyright">
+        <p>Netflix clone made by Vaida <span class="date"></span></p>
+      </div>
+    </footer>
     <script src="app.js"></script>
   </body>
 </html>
