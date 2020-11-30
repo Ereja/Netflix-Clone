@@ -14,27 +14,42 @@
   </head>
   <body>
     <!-- MAIN HERO AREA -->
-    <header class="hero">
-      <div class="hero-header">
+    <header>
+      <div class="hero-header flex">
         <img src="./images/logo.png" alt="Netflix Logo" />
-        <a href="#" class="btn btn-sign">Sign In</a>
+        <button class="btn btn-sign">Sign In</button>
       </div>
-      <div class="hero-info">
+      <div class="hero-info flex">
         <h1>Unlimited films, TV programmes and more.</h1>
         <h2>Watch anywhere. Cancel at any time.</h2>
         <h3>
           Ready to watch? Enter your email to create or restart your membership.
         </h3>
         <div class="email-input">
-          <input type="email" class="email" />
-          <button class="btn btn-started">GET STARTED
-              <span class="arrow-icon">
-                  <i class="fas fa-angle-right"></i>
-              </span>
-            </button>
+          <input type="email" placeholder="Email address"/>
+          <button class="btn btn-started">
+            GET STARTED
+            <span class="arrow-icon">
+              <i class="fas fa-angle-right"></i>
+            </span>
+          </button>
         </div>
       </div>
     </header>
+    <main>
+    <!-- MAIN AREA -->
+    <!-- FIRST SECTION -->
+    <div class="container">
+      <div class="section-info">
+        <h1>Enjoy on your TV.</h1>
+        <h2>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blue-ray players and more.</h2>
+      </div>
+        <div class="video-container">
+          <img src="./images/tv-screen.png" alt="tv screen" class="tv-screen">
+          <video src="./images/video-tv-0819.m4v" autoplay muted loop playsinline class="video-preview"></video>
+      </div>
+    </div>
+</main>
 
     <script src="app.js"></script>
   </body>
