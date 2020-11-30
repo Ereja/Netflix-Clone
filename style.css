@@ -275,6 +275,8 @@ footer li:hover {
   width: 40%;
 }
 
+/* RESPONSIVE LAYOUT */
+
 @media (max-width: 950px) {
   header h1 {
     font-size: 2.5rem;
@@ -288,6 +290,11 @@ footer li:hover {
   main {
     text-align: center;
   }
+
+  .answer {
+    text-align: left;
+  }
+
   .container {
     width: 97vw;
     height: auto;
