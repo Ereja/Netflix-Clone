@@ -89,7 +89,7 @@ header {
 
 .hero-info {
   flex-direction: column;
-  min-width: 450px;
+  min-width: 300px;
   max-width: 800px;
   margin: 2rem auto;
   padding: 4rem 2rem;
@@ -171,6 +171,7 @@ input {
 
 .question-btn {
   justify-content: space-between;
+  align-items: center;
   color: #fff;
   padding: 1.7rem;
   margin-bottom: 0.8rem;
@@ -330,6 +331,10 @@ footer li:hover {
     width: 60vw;
   }
 
+  .faq-input {
+    width: 98%;
+  }
+
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -337,5 +342,101 @@ footer li:hover {
   .btn-started {
     height: 3rem;
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 949px) {
+  header {
+    height: auto;
+  }
+
+  .faq-container {
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+
+  .question-btn {
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+  header h1,
+  main h1 {
+    font-size: 1.5rem;
+    transform: scale(1, 1);
+    line-height: 2.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  header h2,
+  main h2,
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  header {
+    height: 80vh;
+  }
+
+  .hero-header {
+    padding: 1rem;
+  }
+
+  .hero-info {
+    margin: 1rem auto;
+    padding: 3rem 0.5rem;
+  }
+
+  .container {
+    height: auto;
+    padding: 0.6rem 0.2rem;
+  }
+
+  .hero-header img {
+    width: 80px;
+    height: 25px;
+  }
+
+  .email-input {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  input {
+    height: 2rem;
+    width: 90%;
+  }
+
+  .faq-container {
+    margin: 0.5rem auto;
+    padding: 1rem;
+  }
+
+  .question-btn {
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .answer {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.7rem;
+  }
+
+  .btn-started {
+    height: 2rem;
+    padding: 0.5rem;
   }
 }
