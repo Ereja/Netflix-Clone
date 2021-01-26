@@ -1,5 +1,6 @@
 # Netflix-Clone
 Clone of Netflix landing page(2020/12/01)
+[Demo](https://netflix-clone-v.netlify.app/)
 
 
 <p align="center">
