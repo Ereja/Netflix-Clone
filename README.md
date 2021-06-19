@@ -9,4 +9,4 @@ Clone of Netflix landing page(2020/12/01)
 
 A clone of Netflix landing page created using HTML, CSS and JavaScript.
 The page is fully responsive.
-Contains a accordion menu style FAQ section, made functional with JavaScript.
+Contains an accordion menu style FAQ section, made functional with JavaScript.
